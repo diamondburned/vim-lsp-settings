@@ -945,8 +945,7 @@
       "command": "openscad-lsp",
       "url": "https://github.com/Leathong/openscad-LSP",
       "description": "A LSP (Language Server Protocol) server for OpenSCAD.",
-      "requires": [
-      ],
+      "requires": [],
       "vim_plugin": {
         "extensions": [
           "scad"
@@ -1416,7 +1415,7 @@
   ],
   "svelte": [
     {
-      "command": "svelte-language-server",
+      "command": "svelteserver",
       "url": "https://github.com/sveltejs/language-tools",
       "description": "The Svelte Language Server, and official extensions which use it",
       "config": {
@@ -1424,13 +1423,7 @@
       },
       "requires": [
         "npm"
-      ],
-      "vim_plugin": {
-        "extensions": [
-          "svelte"
-        ],
-        "name": "evanleck/vim-svelte"
-      }
+      ]
     }
   ],
   "swift": [
